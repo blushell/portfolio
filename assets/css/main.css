@@ -11,7 +11,7 @@
 
 /* Now you can use @layer or customizations */
 @layer base {
-  body {
-    @apply bg-dracula-base-bg text-dracula-base-text font-mono;
-  }
+	body {
+		@apply bg-dracula-bg text-dracula-text font-mono;
+	}
 }
