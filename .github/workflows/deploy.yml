@@ -15,10 +15,10 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm i
 
       - name: Generate static files
-        run: pnpm run generate
+        run: npm run generate
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
