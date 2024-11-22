@@ -1,0 +1,6 @@
+/* main.css */
+body {
+	background-color: theme('colors.dracula.bg');
+	color: theme('colors.dracula.text');
+	font-family: theme('fontFamily.mono');
+}
