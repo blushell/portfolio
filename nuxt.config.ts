@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 	compatibilityDate: '2024-11-01',
 	devtools: { enabled: true },
 	ssr: false,
+	NUXT_APP_BASE_URL: '/portfolio/',
 	modules: ['@nuxtjs/tailwindcss'],
 	css: ['@/assets/css/main.css', '@mdi/font/css/materialdesignicons.min.css'],
 	app: {
